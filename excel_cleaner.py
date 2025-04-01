@@ -271,4 +271,4 @@ if st.session_state.file_uploaded and st.session_state.dataframe is not None:
 
 # Footer
 st.markdown("<hr/>", unsafe_allow_html=True)
-st.markdown("<p class='footer-text'>Made by Inside Sales Team | © 2023</p>", unsafe_allow_html=True)
+st.markdown("<p class='footer-text'>Made by YonahAndTheWhale | © 2023</p>", unsafe_allow_html=True)
