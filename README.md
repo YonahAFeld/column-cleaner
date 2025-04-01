@@ -1,10 +1,8 @@
-# Inside Sales ZoomInfo CSV Column Cleaner
-
-![Inside Sales Logo](scale%20logo%20excel%20cleaner.png)
+#CSV Column Cleaner
 
 ## Overview
 
-This application helps you clean up ZoomInfo CSV files by selecting only the columns you need, making your data more manageable and focused. It's a simple tool that allows you to:
+This application helps you clean up a CSV files by selecting only the columns you need, making your data more manageable and focused. It's a simple tool that allows you to:
 
 - Upload a CSV file exported from ZoomInfo
 - Select which columns to keep
