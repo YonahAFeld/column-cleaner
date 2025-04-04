@@ -4,7 +4,7 @@
 
 This application helps you clean up a CSV files by selecting only the columns you need, making your data more manageable and focused. It's a simple tool that allows you to:
 
-- Upload a CSV file exported from ZoomInfo
+- Upload a CSV file
 - Select which columns to keep
 - Preview the cleaned data
 - Download a new CSV file with only the columns you selected
@@ -84,7 +84,7 @@ C:\Users\YonahFeld\AppData\Local\Programs\Python\Python39\Scripts\streamlit.exe 
 ## How to Use
 
 ### Step 1: Upload Your File
-- Click the "Browse files" button and select your ZoomInfo CSV file
+- Click the "Browse files" button and select your CSV file
 - Wait for the file to upload and process
 - You'll see a success message when the file is ready
 
@@ -106,16 +106,9 @@ C:\Users\YonahFeld\AppData\Local\Programs\Python\Python39\Scripts\streamlit.exe 
 - **Application won't start**: Make sure Python and all required packages are installed correctly
 - **File won't upload**: Ensure your file is in CSV format (.csv extension)
 - **Browser doesn't open**: Try going to http://localhost:8501 manually
-- **Columns missing**: Some ZoomInfo exports have different column names. Use the "Select All" option and then manually deselect the columns you don't want
+- **Columns missing**: Use the "Select All" option and then manually deselect the columns you don't want
 
-## Need Help?
 
-Contact the Inside Sales team if you have any questions or issues with the application.
-
-- **Email**: support@insidesales.com
-- **Internal Slack Channel**: #zoominfo-help
-
-## System Requirements
 
 - Windows 11
 - Intel Core Ultra 7 processor or equivalent
