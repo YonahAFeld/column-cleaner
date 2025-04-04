@@ -113,6 +113,22 @@ st.markdown("""
         padding: 1rem 0;
         font-size: 0.8rem;
     }
+    /* Navy blue download button */
+    .navy-download-button button {
+        background-color: navy !important;
+        color: white !important;
+        border: none;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 0.5rem 1rem;
+        transition: all 0.3s;
+    }
+    .navy-download-button button:hover {
+        background-color: #000080 !important;
+        color: white !important;
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -262,6 +278,7 @@ if st.session_state.file_uploaded and st.session_state.dataframe is not None:
                         mime="text/csv",
                         help="Download your cleaned CSV file with only the selected columns",
                         use_container_width=True
+                        key="navy-download-button"
                     )
                 
             except Exception as e:
