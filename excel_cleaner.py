@@ -277,7 +277,7 @@ if st.session_state.file_uploaded and st.session_state.dataframe is not None:
                         file_name=output_filename,
                         mime="text/csv",
                         help="Download your cleaned CSV file with only the selected columns",
-                        use_container_width=True
+                        use_container_width=True,
                         key="navy-download-button"
                     )
                 
